@@ -89,7 +89,7 @@ if __name__ == '__main__':
 	# Load model yang telah ditraining
 	model = load('model_spam_tfidf_nb.model')
 
-	# Run Flask di localhost 
+	# Run Flask di ngrok
 	run_with_ngrok(app)
 	app.run()
 	
